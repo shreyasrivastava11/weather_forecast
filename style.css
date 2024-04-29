@@ -1,0 +1,97 @@
+body{
+    background: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 350px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    margin: 100px auto;
+    /* auto horizontally center the element within its container*/
+    padding: 30px 50px 50px 40px;
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 20px 90px 20px 15px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+
+.png1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather{
+    text-align: center;
+    color: #fff;
+}
+
+.temp,.city{
+    margin: 0;
+}
+
+.city{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 35px;
+}
+
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+p{
+    color: #fff;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.humidity, .wind{
+    font-size: 25px;
+}
